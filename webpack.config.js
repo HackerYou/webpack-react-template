@@ -11,7 +11,7 @@ module.exports = {
          loader: 'babel-loader',
          exclude: /node_modules/,
          query: {
-           presets: ['react']
+           presets: ['react', 'es2015']
          }
        }
       ]
